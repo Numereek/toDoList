@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,height=device-height initial-scale=1.0"  />
+        <link rel="stylesheet" href="style/style.css">
+        <title>devskills</title>
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="control">
+                    <select id="selectVal" onchange="handleChange()">
+                        <option value="--Select--">--Select--</option>
+                        <option value="Language">Language</option>
+                        <option value="Framework">Framework</option>
+                        <option value="Runtime/Environment">Runtime/Environment</option>
+                    </select>
+                    <input type="text" class="add" id="inputVal" placeholder="Add item"/>
+                    <button onclick="checkValue()">Add</button>
+                </div>
+                <div class="tasks" id="insertPoint">
+                </div>
+
+            </div>
+        </div>
+<script src="script/index.js"></script>
+    </body>
+
+</html>
